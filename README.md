@@ -2,4 +2,4 @@
 
 
 
-URL to website: https://github.com/zokucodes/calculator
+URL to website: https://zokucodes.github.io/calculator/
