@@ -1,0 +1,63 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap');
+
+* {
+    box-sizing: border-box;
+    font-family: 'Roboto', 'Times New Roman', 'arial'  ;
+}
+
+body{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #86d49e;
+    margin-top: 200px;
+    color: #ffffff;
+}
+
+button{
+    color: black;
+    font-size: 16px;
+    cursor: pointer; /* Makes the cursor not big */
+    width: 100px;
+    margin: 2px;
+    background-color: white;
+    border: none;
+  
+}
+
+button:hover{
+    font-size: 30px;
+    background-color: rgb(180, 180, 180);
+    
+}
+
+.row{
+    background-color: black;
+    display: flex;
+    height: 100px;
+}
+
+.calculator{
+    display: flex;
+    flex-direction: column;
+    overflow: hidden;
+    border-radius: 18px;
+    width: 400px;
+    height: 620px;
+    border: black ridge;
+}
+
+
+.screen{
+    display: flex;
+    justify-content: right;
+    align-items: center;
+    font-size: 50px;
+    height: 115px;
+    background-color: rgb(103, 226, 132);
+}
+
+
+
+
